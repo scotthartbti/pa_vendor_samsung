@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
+	vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
+	vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_p2p.bin:system/vendor/firmware/bcm4330_p2p.bin \
     vendor/samsung/infuse4g/proprietary/bin/BCM4330B1_002.001.003.0043.0061.hcd:system/bin/BCM4330B1_002.001.003.0043.0061.hcd \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/melfas_touchkey.kcm.bin:system/vendor/firmware/melfas_touchkey.kcm.bin \
@@ -63,28 +65,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
     vendor/samsung/infuse4g/proprietary/bin/charging_mode:system/bin/charging_mode \
     vendor/samsung/infuse4g/proprietary/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/infuse4g/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
-    vendor/samsung/infuse4g/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
-    vendor/samsung/infuse4g/proprietary/media/bootsamsungloop.qmg:system/media/bootsamsungloop.qmg \
-    vendor/samsung/infuse4g/proprietary/media/bootsamsung.qmg:system/media/bootsamsung.qmg \
-    vendor/samsung/infuse4g/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
-    vendor/samsung/infuse4g/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg
+    vendor/samsung/infuse4g/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so 
